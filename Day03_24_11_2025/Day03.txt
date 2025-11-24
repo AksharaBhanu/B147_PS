@@ -1,0 +1,72 @@
+driver methods
+------------------------------basic-----------
+get(url)
+close()
+quit()
+maximize_window
+fullscreen_window
+minimize_window
+back
+forward
+refresh
+get_window_size
+set_window_size
+get_window_position
+set_window_position
+title
+current_url
+page_source
+----------------------------------------------
+
+enter click select double click drag drop--- actions 
+before performing any action , we should identify the GUI object (element) --> web element
+
+anything present on the webpage is web element --> textbox button link image radio button check box list box ...
+
+html--> hyper text markup language 
+
+tag
+attribute
+text
+
+
+to identify web element we use 'LOCATORS'
+
+we have 8 locators--> TAG_NAME, ID,NAME,CLASS_NAME,LINK_TEXT,PARTIAL_LINK_TEXT
+CSS_SELECTOR
+XPATH
+
+
+
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+
+
+
+
+
+
+find_element method will search in html tree (not in UI)
+
+
+NoSuchElementException
+
+if using any of the locator , find element is unable to locate the element --> it will throw NSEE
+
+
+if locator is matching with 1 element --> it returns it
+if locator is matching with >1 elements --> it returns 1st matching element
+if locator is matching with 0 elements (not matching)--> we get NSEE error
+
+
+
+
+
+
+
+
+
+
+
+
+
+
