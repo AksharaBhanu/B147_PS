@@ -1,0 +1,126 @@
+https://us02web.zoom.us/j/84806334364 (Passcode: live)
+
+Free zoom registration
+login to zoom using ur gmail 
+then click join meeting 
+meeting id:84806334364
+Passcode: live
+
+details--> https://youtu.be/PDyH3NeM1E0  (how to register and join)
+
+Bhanu Prakash- 9481787493
+Divya:7204842332 
+
+class will be 8.45PM to 10PM
+Monday to Friday --> Saturday 
+
+https://aksharatraining.com/python/
+
+100% - laptop --write code -- write code 
+
+Selenium --Using Python--> basic knowledge --> 
+Create object and call method
+if condition 
+for loop
+--------------------------------------------
+
+Hi-B147 in WhatsApp 
+
+Selenium --> is a free and open source web application test automation tool
+
+free--> no need to pay any money--> https://www.selenium.dev/
+
+open source --> we can see the source code --> https://github.com/SeleniumHQ/selenium
+
+
+web application--> any app which uses browser 
+
+Calc-Desktop application (standalone)
+outlook---> Desktop (Client Server)
+gmail--> Browser (Chrome FF Edge..) web application
+phone whatsapp-> mobile application
+
+test automation tool
+tool-> software 
+test the application automatically
+
+run button--> open the browser ,enter url , action and verification 
+
+
+Browser Supported by Selenium
+1. Firefox
+2. Chrome
+3. Edge
+4. Opera
+5. IE
+6. Safari
+
+OS:
+windows mac and Linux
+
+coding language supported by selenium
+1. Java
+2. C#(dot net)
+3. python
+4. JS
+5. Ruby
+6. Go
+7. Haskell
+8. Perl
+9. php
+10. R
+11. Dart
+12. Pharo Smalltalk
+
+Selenium popular
+1. Free
+2. Open Source
+3. all OS
+4. all major browser 
+5. easy to learn
+6. stable 
+7. community support
+
+Jason Huggins --> 2004 (ThoughtWorks-test eng) QTP --Mercury -Selenium-->web app tool
+2006 Simon (google) --> WebDriver --> web app tool
+
+2009--> Selenium WebDirver 
+
+Latest version of selenium : 4.38.0 
+
+use below link to know all version and its release date
+https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+
+Python
+
+1. python--> https://www.python.org/downloads/
+2. PyCharm--> https://www.jetbrains.com/pycharm/
+3. download and install selenium
+
+pip --> package installer for python 
+
+(Pip Installs Package-PIP)
+
+install selenium using cmd
+--> pip install selenium
+
+we can install using PyCharm IDE
+1. open PyCharm
+2. open req project
+3. go to file --> settings
+4. under python--> interpreter
+5. click + 
+6. search selenium 
+7. click install package
+
+
+Videos will be available in akshara mobile app
+https://aksharatraining.com/mobile-app/
+
+install the mobile app and ping -->9481787493 - i will add u to group
+
+GitHub and slack ...
+
+
+
+
