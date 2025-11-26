@@ -1,0 +1,102 @@
+path of the element in html tree
+
+./html/body/a
+
+. root element
+/ child
+
+absolute xpath
+
+//a--> relative xpath
+
+index --> //a[1]
+attribute --> //a[@id='a1']
+text--> //a[text()='Google']
+
+logical operator 
+and
+or 
+not
+
+
+/html/body/a[text()='Google']--> absolute xpath with text--> //a[text()='Google']
+
+
+
+//input[@class='form-control' and not(@type='text')]
+
+
+syntax relative xpath with attribute
+
+//tag[@AN='AV']
+
+syntax relative xpath with text
+
+//tag[text()='tv']
+
+logical operator and or not
+
+
+//tag[@AN1='AV1' and @AN2='AV2' or not(text()='tv')]
+//tag[@AN1='AV1' or  not(@AN2='AV2')]
+
+contains function
+
+//tag[contains(arg1,arg2)]
+
+arg1--> @AN or text()
+arg2--> value
+
+//tag[contains(@AN,'av')]
+//tag[contains(text(),'tv')]
+
+<img data-v-17f5fb62="" src="/web/images/ohrm_branding.png?v=1721393199309" alt="company-branding">
+
+//img[@src='/web/images/ohrm_branding.png?v=1721393199309']
+
+//img[contains(@src,'ohrm_branding')]
+
+
+<p data-v-7b563373="" class="oxd-text oxd-text--p orangehrm-copyright">OrangeHRM OS 5.7</p>
+
+//p[text()='OrangeHRM OS 5.7']-----> //p[.='OrangeHRM OS 5.7']
+
+//p[contains(text(),'OrangeHRM OS')]-->//p[contains(.,'OrangeHRM OS')]
+
+
+
+
+.//p[.='OrangeHRM OS 5.7']
+
+1st dot ---> root element
+2nd dot----> text function
+
+
+
+contains--> value is very lengthy or dynamic 
+
+https://aksharatraining.com/sample4.html
+
+//a ->all 10
+//a[1]--> 
+//a[4]
+//a[5]-->no match
+
+write xpath to identify 1st and last image present on the page
+
+(//img)[1]|(//img)[last()]
+
+
+we can join 2 xpath using | 
+
+//div[1]/input[1] A
+//div[2]/input[2] D
+
+
+//div[1]/input[1] |//div[2]/input[2]
+
+
+
+
+
+
