@@ -1,0 +1,53 @@
+xpath
+absolute and relative
+/html/body/a     //a
+//a[1]--> all the link whose index is 1 
+(//a)[1]--> the 1st link
+last() position() 
+
+
+attribute
+//tag[@AN='AV' and @AN2='AV2' or @AN3='AV3']
+//tag[not(@AN='AV')]
+
+//tag[text()='tv']   --> //tag[.='tv']
+
+//tag[contains(@AN,'av')]
+//tag[contains(text(),'tv')]
+
+//tag[starts-with(arg1,arg2)]
+
+<a id="a1" name="n1" class="c1" title="click me" href="http://www.google.com">Google</a>
+//a[@href="http://www.google.com"]
+//a[starts-with(@href,'http')]
+//a[contains(@href,'www')]
+
+//a[ends-with(@href,'com')]--- will not work in the browser
+
+
+
+xpath--> path of the element in XML tree --> html --> xpath 
+
+browser supports only xpath 1.0 
+
+
+traversing
+
+if value is partially dynamic we use contains function
+if value is completely dynamic , we use I & D xpath
+
+steps to write I & D xpath
+1. inspect Independent element (IE)--> and note down its html code
+2. place the mouse pointer on html code of IE and move in upward direction 
+   till it highlights both IE & DE (common parent)
+3. note down the path from IE to CP
+4. use down arrow key to navigate from CP to DE , note down its path
+5. write xpath from IE--> CP--> DE
+
+
+
+
+
+
+
+
