@@ -1,0 +1,46 @@
+steps to write I & D xpath
+1. inspect Independent element (IE)--> and note down its html code
+2. place the mouse pointer on html code of IE and move in upward direction 
+   till it highlights both IE & DE (common parent)
+3. note down the path from IE to CP
+4. use down arrow key to navigate from CP to DE , note down its path
+5. write xpath from IE--> CP--> DE
+
+
+
+//td[.='mobile']/..//input[@type='checkbox']
+
+
+(//span[text()='Apple iPhone 15 (128 GB) - Black'])[1]/../../../../div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/a/span[1]/span[1]
+
+
+(//span[text()='Apple iPhone 15 (128 GB) - Black'])[1]/../../../..//span[@class='a-price']/span[1]
+
+amzon
+flipkart
+myntra
+meesho
+ajio
+nykaa
+
+//div[contains(text(),'December')]/../../div[3]/div[5]/div[1]/div/p[1]
+
+
+//div[contains(text(),'December')]/../..//p
+
+m="December"
+d="28"
+
+//div[contains(text(),'December')]/../..//p[text()='28']
+
+f"//div[contains(text(),'{m}')]/../..//p[text()='{d}']"
+
+
+
+
+
+
+
+
+
+

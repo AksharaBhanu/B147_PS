@@ -1,0 +1,1 @@
+print('xpath independent and dependent')
